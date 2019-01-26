@@ -7,7 +7,16 @@ body {
 h1, h2, h3{
   font-size: 60px;
   font-family: 'Orbitron', sans-serif;
+  border:50%;
 }
 
 nav a {
+}
+
+.j{
+  background-color: rgb(92, 3, 127);
+}
+
+.k{
+  background-color: rgb(41, 76, 153);
 }
