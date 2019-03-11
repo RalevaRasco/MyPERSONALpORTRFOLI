@@ -7,10 +7,16 @@ body {
 h1, h2, h3{
   font-size: 60px;
   font-family: 'Orbitron', sans-serif;
-  border:50%;
+  border:70%;
 }
 
-nav a {
+nav  {
+  list-style-type: none;
+  overflow: hidden;
+  position: -webkit-sticky;
+}
+.troll {
+  float: left;
 }
 
 .j{
@@ -19,4 +25,14 @@ nav a {
 
 .k{
   background-color: rgb(41, 76, 153);
+}
+li a {
+  text-decoration: none;
+  text-align: center;
+}
+.troll{
+  color: rgb(57, 82, 122);
+}
+li a:hover {
+  background-color: rgb(223, 239, 162);
 }
