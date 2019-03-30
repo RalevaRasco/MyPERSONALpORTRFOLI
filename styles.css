@@ -36,3 +36,12 @@ li a {
 li a:hover {
   background-color: rgb(223, 239, 162);
 }
+h5  {
+  list-style-type: none;
+  overflow: hidden;
+  position: -webkit-sticky;
+}
+li h5 {
+  text-decoration: none;
+  text-align: center;
+}
